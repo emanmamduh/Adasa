@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap");
+body {
+  /* font-family: 'Tajwal', sans-serif; */
+  font-family:
+    Tajawal,
+    system-ui,
+    -apple-system,
+    sans-serif;
+}
+@import "tailwindcss";
+
+.btn-primary {
+  cursor: pointer;
+  padding-inline: calc(var(--spacing) * 8);
+  padding-block: calc(var(--spacing) * 4);
+  --tw-font-weight: var(--font-weight-semibold);
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-white);
+  transition-property: all;
+  transition-timing-function: var(
+    --tw-ease,
+    var(--default-transition-timing-function)
+  );
+  transition-duration: var(--tw-duration, var(--default-transition-duration));
+  --tw-duration: 0.3s;
+  background: linear-gradient(135deg, #f97316, #ea580c);
+  border-radius: 3.40282e38px;
+  justify-content: center;
+  align-items: center;
+  transition-duration: 0.3s;
+  display: inline-flex;
+}
+
+.btn-secondary {
+  cursor: pointer;
+  padding-inline: calc(var(--spacing) * 8);
+  padding-block: calc(var(--spacing) * 4);
+  --tw-font-weight: var(--font-weight-semibold);
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-white);
+  transition-property: all;
+  transition-timing-function: var(
+    --tw-ease,
+    var(--default-transition-timing-function)
+  );
+  transition-duration: var(--tw-duration, var(--default-transition-duration));
+  --tw-duration: 0.3s;
+  background-color: #0000;
+  border: 1px solid #333;
+  border-radius: 3.40282e38px;
+  justify-content: center;
+  align-items: center;
+  transition-duration: 0.3s;
+  display: inline-flex;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.input-dark:focus {
+    border-color: #f97316;
+}
+button{
+  cursor: pointer;
+}
+.active{
+  background-color: rgba(249, 115, 22, 0.1); 
+  color: #f97316;                           
+  border: 1px solid rgba(249, 115, 22, 0.3);
+}
+@media (min-width: 768px) {
+.active {
+  background-image: linear-gradient(to right, #f97316, #ea580c);
+  font-size: 14px;
+  font-weight: 500;
+  padding-inline: 20px;
+  padding-block: 10px;
+  color: white;
+  transition: all 0.3ms;
+  border-radius: 25px;
+
+}
+}
+

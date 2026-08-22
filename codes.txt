@@ -1,0 +1,49 @@
+                //? background style
+
+        {/* <div class="absolute top-0 left-1/4 w-96 h-96 bg-orange-500/5 rounded-full blur-3xl"></div>
+        <div class="absolute bottom-0 right-1/4 w-96 h-96 bg-yellow-500/5 rounded-full blur-3xl"></div> */}
+        {/* <div class="absolute inset-0 bg-[linear-gradient(rgba(38,38,38,0.5)_1px,transparent_1px),linear-gradient(90deg,rgba(38,38,38,0.5)_1px,transparent_1px)] bg-[size:60px_60px]"></div> */}
+
+
+
+                  * <button class="px-4 py-2 rounded-xl text-sm font-medium transition-all duration-300 bg-[#161616] text-neutral-400 border border-[#262626] hover:border-orange-500/30">
+            إضاءة
+          </button>
+          <button class="px-4 py-2 rounded-xl text-sm font-medium transition-all duration-300 bg-[#161616] text-neutral-400 border border-[#262626] hover:border-orange-500/30">
+            بورتريه
+          </button>
+          <button class="px-4 py-2 rounded-xl text-sm font-medium transition-all duration-300 bg-[#161616] text-neutral-400 border border-[#262626] hover:border-orange-500/30">
+            مناظر طبيعية
+          </button>
+          <button class="px-4 py-2 rounded-xl text-sm font-medium transition-all duration-300 bg-[#161616] text-neutral-400 border border-[#262626] hover:border-orange-500/30">
+            تقنيات
+          </button>
+          <button class="px-4 py-2 rounded-xl text-sm font-medium transition-all duration-300 bg-[#161616] text-neutral-400 border border-[#262626] hover:border-orange-500/30">
+            معدات
+          </button>
+
+
+
+
+              // // <Category/> section
+    // const categoreis = postsList?.reduce((prevArt, currentArt) => {
+    //   const ctgry = currentArt.category;
+    //   prevArt[ctgry] = (prevArt[ctgry] || 0) + 1;
+
+    //   return prevArt;
+    // }, {});
+
+    // // الي فوق رجعتلي اوبجكت مجمع كل حاجه انا عايزه افصلهم باستخدام ال entries
+    // const categoreisList = Object.entries(categoreis).map(
+    //   //الي فوق رجعت [[] , []] بس انا عايزه [{} , {}] ف استخدمت الماب وحولتها
+    //   ([ctgryName, count], index) => {
+    //     //categoreis دي ارراي فيها قيمتين كي وفاليو ف كده عملنا destructing [ctgryName, count]
+    //     //[["إضاءة", 4],["بورتريه", 6] ] ===>  [{ "إضاءة", 4} , {"بورتريه", 6}]
+    //     return {
+    //       id: index,
+    //       categoryName: ctgryName,
+    //       categoryCount: count,
+    //     };
+    //   },
+    // );
+    // console.log(categoreisList);
